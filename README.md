@@ -4,7 +4,7 @@
 
 $ sudo apt-get install debian-archive-keyring
 安装所需依赖，使用debootstrap命令创建文件系统。创建个工作目录。
-shell复制代码# 新建工作目录 build
+# 新建工作目录 build
 $ mkdir build && cd build
 # 安装必要依赖 debootstrap就是构建的命令
 $ sudo apt-get install qemu qemu-user-static binfmt-support debootstrap
